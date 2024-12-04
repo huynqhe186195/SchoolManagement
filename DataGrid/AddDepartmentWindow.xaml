@@ -1,0 +1,22 @@
+﻿<Window x:Class="DataGrid.AddDepartmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Department" Height="350" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <!-- Tên phòng ban -->
+            <TextBox x:Name="txtDepartmentName" Text="Department Name" Width="200" Margin="0,0,0,10"
+                     GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+
+            <!-- Địa chỉ phòng ban -->
+            <TextBox x:Name="txtDepartmentAddress" Text="Department Address" Width="200" Margin="0,0,0,10"
+                     GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"/>
+
+            <!-- Trạng thái kích hoạt -->
+            <CheckBox x:Name="chkIsActive" Content="Active" IsChecked="True" HorizontalAlignment="Center" Margin="0,0,140,20"/>
+
+            <!-- Nút lưu -->
+            <Button Content="Save" Width="100" Click="SaveButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

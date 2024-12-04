@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGrid", "DataGrid\DataGrid.csproj", "{11907A00-4A88-4776-B91E-B9DE516F1CE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{08FFD6FB-B8ED-4FA3-A786-DD9B6623EF53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{2D524F35-DD98-454E-B34C-2B264561FD62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11907A00-4A88-4776-B91E-B9DE516F1CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11907A00-4A88-4776-B91E-B9DE516F1CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11907A00-4A88-4776-B91E-B9DE516F1CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11907A00-4A88-4776-B91E-B9DE516F1CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FFD6FB-B8ED-4FA3-A786-DD9B6623EF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FFD6FB-B8ED-4FA3-A786-DD9B6623EF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FFD6FB-B8ED-4FA3-A786-DD9B6623EF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FFD6FB-B8ED-4FA3-A786-DD9B6623EF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D524F35-DD98-454E-B34C-2B264561FD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D524F35-DD98-454E-B34C-2B264561FD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D524F35-DD98-454E-B34C-2B264561FD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D524F35-DD98-454E-B34C-2B264561FD62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEF56055-7D63-4A4A-88C0-CC7A7041948F}
+	EndGlobalSection
+EndGlobal

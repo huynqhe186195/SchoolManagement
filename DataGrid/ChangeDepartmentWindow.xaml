@@ -1,0 +1,9 @@
+﻿<Window x:Class="DataGrid.ChangeDepartmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Change Department" Height="300" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ComboBox x:Name="departmentComboBox" Width="200" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Content="Assign" Width="100" VerticalAlignment="Bottom" Margin="0,0,0,30" Click="AssignButton_Click"/>
+    </Grid>
+</Window>
